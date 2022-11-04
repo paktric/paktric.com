@@ -32,9 +32,9 @@ This project is a web portfolio where I can showcase my programming projects.
 - GitHub for version control
 
 ### Implementation
-The first part of the project was getting a domain and hosting plan. I bought my domain and went with a hosting option that allowed me to manage my Linux host using cPanel. My website is just a showcase for my work, so I didn't think I needed an SSL certificate because I'm not dealing with sensitive data transfer. What I didn't know was that not having an SSL cert negatively effects your SEO ranking. I'm currently researching different options and it looks like Cloudflare offers a free SSL cert that will work for my situation. 
+The first part of the project was getting a domain and hosting plan. I bought my domain and went with a hosting option that allowed me to manage my Linux host using cPanel. My website is just a showcase for my work, so I didn't think I needed an SSL certificate because I'm not dealing with sensitive data transfer. What I didn't realize was that not having an SSL cert negatively effects your SEO ranking. I found that Cloudflare offers a free SSL cert, so I registered for that. 
 
-The next step was to start building my website. A friend of mine who is an excellent UI/UX designer gave me a crash course on Figma and helped me create a website design. I'm currently in the process of taking this design and turning it into HTML/CSS code. In the meantime, I created a simple placeholder website that links to my GitHub, LinkedIn, and Resume. Stay tuned for the finished product!
+The next step was to start building my website. I wanted to get something online to verify my hosting was working, so I created a simple placeholder that links to my GitHub, LinkedIn, and Resume. A friend of mine who is an excellent UI/UX designer gave me a crash course on Figma and is helping me to create a more professional website design. Stay tuned for the finished product!
 
 ### Challenges
 - Figma and cPanel were completely new to me, so there was a bit of a learning curve there.
