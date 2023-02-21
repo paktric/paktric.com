@@ -16,21 +16,21 @@ h1{
 
 h2{
     color: #FFFFFF;
-    font-size: 24pt;
+    font-size: 40pt;
     margin: -20px 0px 20px 0px;
     font-weight: bolder;
 }
 
 h3{
     color: #FFFFFF;
-    font-size: 18pt;
+    font-size: 32pt;
     margin: 15px 0px 0px 15px;
     /* font-weight: bolder; */
 }
 
 p{
     color: #FFFFFF;
-    font-size: 12pt;
+    font-size: 24pt;
     /* justify-content: flex-end;
     align-items: flex-end; */
     margin: 15px 0px 10px 15px;
@@ -74,7 +74,7 @@ table:hover {
     top: 50%;
     transform: translate(-50%, -50%); */
     /* border: red solid 1px; */
-    padding: 75px 0px 0px 75px;
+    padding: 10px 0px 0px 10px;
     margin: 5px 5px 5px 5px;
 }
 
@@ -89,7 +89,8 @@ table:hover {
     /* padding: 150px 0px 0px 75px;
     margin: 5px 5px 5px 5px; */
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    /* justify-content: center; */
     width: 95%;
 }
 
@@ -99,8 +100,8 @@ table:hover {
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     background-color: #121212;
-    width: 300px;
-    height: 150px;
+    width: 850px;
+    height: 300px;
     border-radius: 15px;
     flex-wrap: wrap;
 }
