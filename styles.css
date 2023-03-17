@@ -1,7 +1,13 @@
 /*********************** HTML ***********************/
+/* * {
+    border: 1px solid red;
+} */
+
 html {
     background-color: #121212;
+    color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    padding: 10px;
 }
 
 h1, h2 {
@@ -9,111 +15,100 @@ h1, h2 {
     text-align: left;
 }
 
-h1{
-    color: #FFFFFF;
-    font-size: 64pt;
+h1 {
+    font-size: 10vw;
 }
 
-h2{
-    color: #FFFFFF;
-    font-size: 24pt;
-    margin: -20px 0px 20px 0px;
-    font-weight: bolder;
+h2 {
+    font-size: 6vw;
 }
 
-h3{
-    color: #FFFFFF;
-    font-size: 18pt;
-    margin: 15px 0px 0px 15px;
-    /* font-weight: bolder; */
-}
-
-p{
-    color: #FFFFFF;
-    font-size: 12pt;
-    /* justify-content: flex-end;
-    align-items: flex-end; */
-    margin: 15px 0px 10px 15px;
-}
-
-table{
-    border: 3px solid #505255;   
-    border-radius: 50px;
-    background-color: #121212;
-    margin: 5px 20px 5px 0px;
-}
-
-tr,td {
-    padding: 0px 20px 0px 10px;
+li, p {
+    font-size: 4vw;
 }
 
 a {
-    color: #9C9D9E;
-    font-size: 16pt;
-    font-weight: bold;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
 a:hover {
     color: #FFF;
-    
 }
 
-table:hover {
-    background: #505255;
-    transition-duration: 0.2s;
+img{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
 }
 
+nav {
+    padding-bottom: 30px;
+}
 
+footer {
+    color: #444444;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 200px;
+}
+
+body {
+    display: grid;
+    gap: 1em;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+@media (min-width: 40em) {
+    body {
+        max-width: 1500px;
+        margin: auto;
+        grid-template-columns: 20em 1fr;
+        grid-template-rows: auto 1fr auto;
+        column-gap: 100px;
+        padding: 10px 100px 10px 100px;
+    }
+    header, footer {
+        grid-column: span 2;
+    }
+    header {
+        padding-bottom: 50px;
+    }
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    li, p {
+        font-size: 20px;
+    }
+    footer {
+        font-size: 16px;
+    }
+    img{
+        padding-bottom: 40px;
+    }
+  }
 
 /********************* CLASSES **********************/
-
-.center {
-    /* position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%); */
-    /* border: red solid 1px; */
-    padding: 75px 0px 0px 75px;
-    margin: 5px 5px 5px 5px;
+.btn-group button {
+    display: block;
 }
 
-.buttons {
-    padding: 10px 0px 100px 0px;
-    display: flex;
-    justify-content: left;
-}
-
-.projectTiles {
-    /* border: red solid 1px; */
-    /* padding: 150px 0px 0px 75px;
-    margin: 5px 5px 5px 5px; */
-    display: flex;
-    justify-content: left;
-    width: 95%;
-}
-
-.tile {
-    border: #505255 solid 1px;
-    /* display: flex; */
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    background-color: #121212;
-    width: 300px;
-    height: 150px;
-    border-radius: 15px;
-    flex-wrap: wrap;
-}
-
-.tile:hover {
-    /* border: #505255 solid 2px; */
-    margin: 8px 8px 8px 8px;
-    transform: scale(1.1);
-    transition-duration: 0.2s;
-}
-
-.icon {
-    padding: 5px 0px 0px 10px;
-
-}
-
+.btn  {
+    display: inline-block;
+    background-color: rgb(88, 88, 88);
+    border: none;
+    font-size: 1fr;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    transition: 200ms;
+    background-color: rgb(0, 133, 82);
+  }
