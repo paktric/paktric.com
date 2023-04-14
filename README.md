@@ -1,13 +1,16 @@
-# Notes
-- If updating `css` file, make sure to update the version on the `html` stylesheet ref to avoid cache issue   
+# *Portfolio Website*
 
-</br>
+### Purpose:
+A web portfolio to showcase my software projects and interests.
 
-# TODO
-- Run Lighthouse tests again - one of the suggestions was switching image to webp   
+---
 
-</br>
+### ToDo:
+- Run Lighthouse tests again - one of the suggestions was switching image to webp format   
 
-# Update History
+---
+
+### Update History:
+**Note:** If updating css file, make sure to update the version on the html stylesheet ref to force cache refresh
 - 17 MAR 2023 - Updated html to include css version (cache issue fix)   
 - 17 MAR 2023 - Redesign website   
