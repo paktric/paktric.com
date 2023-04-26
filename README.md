@@ -12,5 +12,6 @@ A web portfolio to showcase my software projects and interests.
 
 ### Update History:
 **Note:** If updating css file, make sure to update the version on the html stylesheet ref to force cache refresh
+- 26 APR 2023 - Updated resume, made pfp smaller for easier load. Added version numbers to resume and pfp.
 - 17 MAR 2023 - Updated html to include css version (cache issue fix)   
 - 17 MAR 2023 - Redesign website   
